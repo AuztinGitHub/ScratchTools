@@ -1,6 +1,5 @@
 if (
-  window.location.href.includes("https://scratch.mit.edu/projects/") &&
-  window.location.href.includes("/editor")
+  window.location.href.includes("https://scratch.mit.edu")
 ) {
   var style = document.createElement("style");
   style.id = "scratchtoolseditor";
